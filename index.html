@@ -8,12 +8,19 @@
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <title>Balgium Electromech</title>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).bind("contextmenu", function (e) {
+                return false;
+            });
+        });
+    </script>
 </head>
 <body style="background-color:white; margin:0%">
     <div class="jumbotron">
         <div class="container">
             <h1>Balgium Electromech <small>Since 1970</small></h1>
-            <p>Premium supplier of Havells, SIMON, and Bentex</p>
+            <p>Premium supplier of Havells, SIMON, Standard and Bentex</p>
             <p><a class="btn btn-success btn-lg" href="" role="button">Our Accomplishments<span class="glyphicon glyphicon-star" aria-hidden="true"></span></a></p>
             <div>
                 <h4><span class="glyphicon glyphicon-phone-alt"><small>&nbsp;011-23874061, 011-30141575, 011-23864708, 9871001700, 9871001701, COSMOS:  4061, IC: 1575</small></span></h4>
@@ -23,7 +30,7 @@
     </div>
     <div class="container bs-docs-container">
         <div class="row">
-            <div class="col-lg-9 col-md-9 col-sm-9" role="main">
+            <div class="col-lg-9 col-md-9 col-sm-12" role="main">
                 <div class="bs-docs-section" style="height:auto">
                     <h1 id="simon" class="page-header">SIMON</h1>
                     <h2 id="simon-ampmeter">Ampmeter</h2>
@@ -303,7 +310,7 @@
                                 <tr>
                                     <td align="left"><span class="glyphicon glyphicon-muted"></span></td>
                                     <td align="right"><span class="glyphicon glyphicon-muted"></span></td>
-                                    <td align="left">5000/5</td>
+                                    <td align="center">5000/5</td>
                                     <td align="right">1695.00</td>
                                 </tr>
                                 <tr>
@@ -549,12 +556,318 @@
                                     <td align="right">8020.00</td>
                                     <td align="right">11040.00</td>
                                 </tr>
+                                <tr>
+                                    <td colspan="7" align="center">Tiny-RK: 460.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 id="bentex-motorstarter-oil-immersed">Bentex Control Panel</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">Range</th>
+                                    <th style="text-align:center">BCSMC 1</th>
+                                    <th style="text-align:center">BCM -III</th>
+                                    <th style="text-align:center">BCSM - III</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="left">1 HP</td>
+                                    <td align="right">2848.00</td>
+                                    <td align="right">2185.00</td>
+                                    <td align="right">3050.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">1.5 HP</td>
+                                    <td align="right">3000.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="left">2 HP</td>
+                                    <td align="right">3190.00</td>
+                                    <td align="right">2185.00</td>
+                                    <td align="right">3050.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">3 HP</td>
+                                    <td align="right">3685.00</td>
+                                    <td align="right">2185.00</td>
+                                    <td align="right">3050.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">3 HP(Heavy Duty)</td>
+                                    <td align="right">4035.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="left">5 HP</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">2185.00</td>
+                                    <td align="right">3050.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">7.5 HP</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">2185.00</td>
+                                    <td align="right">3050.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">10 HP</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">2185.00</td>
+                                    <td align="right">3050.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">7.5 10 HP BCSM(Heavy Duty)</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">3400.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 id="bentex-mainswitch-rewirable">Bentex Main Switches(Rewirable)</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">Range(Ampere)</th>
+                                    <th style="text-align:center">DP</th>
+                                    <th style="text-align:center">TP</th>
+                                    <th style="text-align:center">TP &amp; N</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="center">32</td>
+                                    <td align="right">950.00</td>
+                                    <td align="right">1150.00</td>
+                                    <td align="right">1175.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">63</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">2630.00</td>
+                                    <td align="right">2670.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">100</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">4500.00</td>
+                                    <td align="right">4550.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">200</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">6275.00</td>
+                                    <td align="right">6550.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 id="bentex-mainswitch-hrc">Bentex Main Switches(HRC Type)</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">Range(Ampere)</th>
+                                    <th style="text-align:center">Price (in Rs.)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="center">32</td>
+                                    <td align="right">8080.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">320</td>
+                                    <td align="right">9655.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">400</td>
+                                    <td align="right">12500.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="2">Main switch knife type 200 A TP: 7765.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 id="bentex-mcb">MCB</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">Range(Ampere)</th>
+                                    <th style="text-align:center">S. P.</th>
+                                    <th style="text-align:center">S. P. & N.</th>
+                                    <th style="text-align:center">D. P.</th>
+                                    <th style="text-align:center">T. P.</th>
+                                    <th style="text-align:center">T. P. & N.</th>
+                                    <th style="text-align:center">F.P.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="center">6 - 32</td>
+                                    <td align="right">90.00</td>
+                                    <td align="right">215.00</td>
+                                    <td align="right">240.00</td>
+                                    <td align="right">352.00</td>
+                                    <td align="right">475.00</td>
+                                    <td align="right">505.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">40</td>
+                                    <td align="right">125.00</td>
+                                    <td align="right">270.00</td>
+                                    <td align="right">305.00</td>
+                                    <td align="right">480.00</td>
+                                    <td align="right">600.00</td>
+                                    <td align="right">630.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">207</td>
+                                    <td align="right">207.00</td>
+                                    <td align="right">420.00</td>
+                                    <td align="right">472.00</td>
+                                    <td align="right">703.00</td>
+                                    <td align="right">870.00</td>
+                                    <td align="right">904.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 id="bentex-isloators">Isolators</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">Range(Ampere)</th>
+                                    <th style="text-align:center">D. P.</th>
+                                    <th style="text-align:center">F.P.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="center">40</td>
+                                    <td align="right">186.00</td>
+                                    <td align="right">368.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">63</td>
+                                    <td align="right">214.00</td>
+                                    <td align="right">428.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">100</td>
+                                    <td align="right">300.00</td>
+                                    <td align="right">605.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 id="bentex-mcb-type-changeover">MCB Type Changeover</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">Range(Ampere)</th>
+                                    <th style="text-align:center">D. P.</th>
+                                    <th style="text-align:center">F.P.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="center">25 - 40</td>
+                                    <td align="right">445.00</td>
+                                    <td align="right">960.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">63</td>
+                                    <td align="right">750.00</td>
+                                    <td align="right">1450.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 id="bentex-changeover-switches">Change over Switches</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">Range(Ampere)</th>
+                                    <th style="text-align:center">Four Pole</th>
+                                    <th style="text-align:center">Four Pole(Knife Type)</th>
+                                    <th style="text-align:center">Double Pole</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="center">32</td>
+                                    <td align="right">1742.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">1020.00</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">63</td>
+                                    <td align="right">3360.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">100</td>
+                                    <td align="right">6395.00</td>
+                                    <td align="right">7500.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">200</td>
+                                    <td align="right">9020.00</td>
+                                    <td align="right">9210.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">320</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">13070.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">400</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">17990.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">600</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">30615.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">800</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">39440.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">1000</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                    <td align="right">49545.00</td>
+                                    <td class="text-danger" align="center"><span class="glyphicon glyphicon-remove"></span></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3" role="complementary">
+            <div class="col-lg-3 col-md-3 col-sm-0" role="complementary">
                 <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
                     <ul class="nav bs-docs-sidenav">
                         <li>
@@ -577,6 +890,12 @@
                             <ul class="nav">
                                 <li><a href="#bentex-motorstarter-airbreak">Motor Starter - Air Break</a></li>
                                 <li><a href="#bentex-motorstarter-oil-immersed">Motor Starter - Oil Immersed</a></li>
+                                <li><a href="#bentex-mainswitch-rewirable">Main Switch - Rewirable</a></li>
+                                <li><a href="#bentex-mainswitch-hrc">Main Switch - HRC Type</a></li>
+                                <li><a href="#bentex-mcb">MCB</a></li>
+                                <li><a href="#bentex-isloators">Isolators</a></li>
+                                <li><a href="#bentex-mcb-type-changeover">MCB Type Changeover</a></li>
+                                <li><a href="#bentex-changeover-switches">Changeover Switches</a></li>
                             </ul>
                         </li>
                         <li>
@@ -593,5 +912,7 @@
     
 </body>
 </html>
+
+
 
 
